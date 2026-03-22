@@ -68,7 +68,7 @@ public class HospitalDAO {
 
         }
         catch(Exception e){
-
+                System.out.print("11");
         }
         return ResponseEntity.ok(null);
     }
