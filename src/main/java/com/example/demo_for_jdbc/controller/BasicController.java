@@ -27,9 +27,6 @@ public class BasicController {
     }
 
 
-    @PostMapping("/insertData")
-    public ResponseEntity<Void> delete(@RequestBody Hospital hospital){
-        return  infoService.insertData(hospital);
-    }
+
 
 }
